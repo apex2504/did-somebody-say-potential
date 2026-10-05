@@ -1,3 +1,6 @@
+<img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/6560f0d8-cbbb-4eef-8fae-3a027d8cc337" />
+
+
 # Megumi Discord Bot (Cloudflare Worker + Python API)
 
 A Discord bot architecture for generating Megumi text meme images:
