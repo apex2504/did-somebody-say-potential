@@ -4,7 +4,7 @@
 
 
 A Discord bot architecture for generating Megumi text meme images:
-- **Cloudflare Worker (Edge Gateway)**: Minimal TypeScript worker designed to be run Cloudflare Workers that verifies Discord HTTP interactions, immediately defers the interaction, and offloads image generation to the backend.
+- **Cloudflare Worker (Edge Gateway)**: Minimal TypeScript worker designed to be run on Cloudflare Workers that verifies Discord HTTP interactions, immediately defers the interaction, and offloads image generation to the backend.
 - **Python image generation backend**: Image generation backend using PIL intended to match the style from https://github.com/apollosense/megumi-meme-generator/.
 
 
