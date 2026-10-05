@@ -1,0 +1,10 @@
+name = "megumi-bot"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Configure these via `wrangler secret put <NAME>` or your Cloudflare dashboard:
+# DISCORD_PUBLIC_KEY = ""
+# DISCORD_APPLICATION_ID = ""
+# DISCORD_BOT_TOKEN = ""

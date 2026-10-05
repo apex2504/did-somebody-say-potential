@@ -1,0 +1,7 @@
+.env
+.dev.vars
+.wrangler/
+node_modules/
+examples/
+web-donotuse/
+python/__pycache__/
