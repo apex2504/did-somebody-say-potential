@@ -1,11 +1,11 @@
-<img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/6560f0d8-cbbb-4eef-8fae-3a027d8cc337" />
+# Megumi bot and API
 
+[<img width="1024" height="741" alt="Click here to add the Discord bot" src="https://github.com/user-attachments/assets/c4fad1db-a27b-4fb8-8a8d-d29800833f45"/>](https://apex.moe/megumi)
 
-# Megumi Discord Bot (Cloudflare Worker + Python API)
 
 A Discord bot architecture for generating Megumi text meme images:
-- **Cloudflare Worker (Edge Gateway)**: Ultra-lightweight TypeScript worker running on Cloudflare Workers that verifies Discord HTTP interactions, immediately acknowledges Discord within < 10ms (preventing interaction timeouts), and offloads image generation to your Python server via `fetch()`. This uses network I/O which consumes 0 ms of Cloudflare Worker CPU time, completely bypassing Cloudflare Workers Free Tier's CPU limits.
-- **Python REST API (Pillow Renderer)**: Image generation backend using Pillow and the **TikTok Sans** font (weight 900), matching the exact styling, neon blue glow, stroke edge, and gradient fill.
+- **Cloudflare Worker (Edge Gateway)**: Minimal TypeScript worker designed to be run Cloudflare Workers that verifies Discord HTTP interactions, immediately defers the interaction, and offloads image generation to the backend.
+- **Python image generation backend**: Image generation backend using PIL intended to match the style from https://github.com/apollosense/megumi-meme-generator/.
 
 
 ## Features
